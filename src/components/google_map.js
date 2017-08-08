@@ -8,12 +8,12 @@ class GoogleMap extends Component {
                 lat: this.props.lat,
                 lng: this.props.lon
             }
-        })
+        });
     }
 
     render() {
-        return <div ref='map' />;
+        return <div ref="map" />;
     }
 }
 
-export default GoogleMap
+export default GoogleMap;
